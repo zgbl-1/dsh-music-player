@@ -1,0 +1,14 @@
+# editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
+
+# packaging leftovers
+node_modules/
+*.tgz
+*.zip
+
+# never commit local runtime data (playlists, NetEase credentials)
+library.json
+account.json
+*.tmp
